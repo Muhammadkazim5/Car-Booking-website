@@ -1,7 +1,7 @@
 <template>
     <HeroSection />
     <Feature />
-    <About />
+    <AboutUs />
     <Services />
     <CallToAction />
     <testimony />
@@ -13,11 +13,11 @@
 <script setup>
 import HeroSection from '../components/HeroSection.vue'
 import Feature from '../components/Feature.vue'
-import About from '../pages/About.vue'
-import Services from '../pages/Services.vue'
+import AboutUs from '../components/AboutUs.vue'
+import Services from '../components/Services.vue'
 import CallToAction from '../components/CallToAction.vue'
 import Testimony from '../components/Testimony.vue'
-import Blog from '../pages/Blog.vue'
+import Blog from '../components/Blog.vue'
 import Statistics from '../components/Statistics.vue'
 </script>
 

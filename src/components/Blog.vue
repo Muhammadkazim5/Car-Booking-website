@@ -8,8 +8,8 @@
 </template>
 
 <script setup>
-import BlogCard from '../components/BlogCard.vue'
-import Heading from '../components/Heading.vue'
+import BlogCard from './BlogCard.vue'
+import Heading from './Heading.vue'
 import { blogs } from '../data/blogData.js'
 </script>
 

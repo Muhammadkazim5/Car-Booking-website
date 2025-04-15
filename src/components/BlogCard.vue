@@ -6,7 +6,9 @@
                 {{ date }} {{ author }} {{ comments?.length }} comments
             </p>
             <h2 class="text-xl font-medium text-gray-800 mt-2">{{ title }}</h2>
-            <CustomButton text="Read More" />
+            <router-link :to="`/blog/${id}`">
+                <CustomButton text="Read More" />
+            </router-link>
         </div>
     </div>
 </template>

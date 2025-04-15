@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Heading title="Our Latest Services" description="Services"/>
+    <Heading title="Our Latest Services" description="Services" />
   </div>
   <div class="flex flex-col md:flex-row justify-center items-center gap-6 py-10 md:p-20">
-    <div v-for="(event,index) in events" :key="index" class="w-full md:w-60">
-    <div class="bg-blue-500 w-20 h-20 rounded-full md:w-24 md:h-24 flex justify-center items-center mx-auto mt-4">
-      <component :is="event.icon" class="text-white text-2xl md:text-4xl"/>
+    <div v-for="(event, index) in events" :key="index" class="w-full md:w-60">
+      <div class="bg-blue-500 w-20 h-20 rounded-full md:w-24 md:h-24 flex justify-center items-center mx-auto mt-4">
+        <component :is="event.icon" class="text-white text-2xl md:text-4xl" />
       </div>
       <div class="p-4 text-center">
         <h2 class="text-lg font-semibold text-gray-800 mt-2">{{ event.title }}</h2>
@@ -17,7 +17,7 @@
 </template>
 
 <script setup>
-import Heading from '../components/Heading.vue'
+import Heading from './Heading.vue'
 import { ref } from "vue";
 import { AkHeart, IcCity, MaAirport } from "@kalimahapps/vue-icons";
 const events = ref([
@@ -48,6 +48,4 @@ const events = ref([
 ]);
 </script>
 
-<style>
-
-</style>
+<style></style>

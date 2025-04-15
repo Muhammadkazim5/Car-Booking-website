@@ -4,9 +4,11 @@ import Home from "../pages/Home.vue";
 import About from "../pages/About.vue";
 import Cars from "../pages/Cars.vue";
 import Pricing from "../pages/Pricing.vue";
-import Blog from "../pages/Blog.vue";
-import Services from "../pages/Services.vue";
+import BlogPage from "../pages/BlogPage.vue";
+import ServicesPage from "../pages/ServicesPage.vue";
 import Contact from "../pages/Contact.vue";
+import CarDetails from "../pages/CarDetails.vue";
+import BlogDetails from "../pages/BlogDetails.vue";
 const routes = [
   {
     path: "/",
@@ -35,12 +37,22 @@ const routes = [
       {
         path: "/blog",
         name: "blog",
-        component: Blog,
+        component: BlogPage,
+      },
+      {
+        path: "/car/:id",
+        name: "carDetails",
+        component: CarDetails,
       },
       {
         path: "/services",
         name: "services",
-        component: Services,
+        component: ServicesPage,
+      },
+      {
+        path: "/blog/:id",
+        name: "blogDetails",
+        component: BlogDetails,
       },
       {
         path: "/contact",
