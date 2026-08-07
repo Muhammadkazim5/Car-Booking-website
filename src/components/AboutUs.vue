@@ -14,6 +14,8 @@
           reiciendis nesciunt doloremque mollitia magni sint molestiae quam!</p>
         <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laboriosam sed nobis
           reiciendis nesciunt doloremque mollitia magni sint molestiae quam!</p>
+          <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laboriosam sed nobis
+          reiciendis nesciunt doloremque mollitia magni sint molestiae quam!</p>
         <CustomButton text="Search Vehicle" />
       </div>
     </div>
