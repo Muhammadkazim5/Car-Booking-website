@@ -34,7 +34,7 @@
 
       <div>
         <p class="text-gray-200 text-md text-center mt-16">
-          Copyright ©2025 Made with love by Code ❤️ Duchess
+          Copyright ©2026 Made with love by Code ❤️ Duchess
         </p>
       </div>
     </div>
